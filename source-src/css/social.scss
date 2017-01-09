@@ -39,42 +39,42 @@
             background: #ef7522;
             border:1px solid #ef7522;
             &:hover {
-                border:1px solid #cf5d0f;
+                border:1px solid #ef7522;
             }
         }
         a.github {
-            background: #afb6ca;
-            border:1px solid #afb6ca;
+            background: #333;
+            border:1px solid #333;
             &:hover {
-                border:1px solid #909ab6;
+                border:1px solid #333;
             }
         }
         a.facebook {
             background: #3b5998;
             border:1px solid #3b5998;
             &:hover {
-                border:1px solid #2d4373;
+                border:1px solid #3b5998;
             }
         }
         a.google {
             background: #c83d20;
             border:1px solid #c83d20;
             &:hover {
-                border:1px solid #9c3019;
+                border:1px solid #c83d20;
             }
         }
         a.twitter {
             background: #55cff8;
             border:1px solid #55cff8;
             &:hover {
-                border:1px solid #24c1f6;
+                border:1px solid #55cff8;
             }
         }
         a.linkedin {
             background: #005a87;
             border:1px solid #005a87;
             &:hover {
-                border:1px solid #006b98;
+                border:1px solid #005a87;
             }
         }
         a.zhihu {
@@ -92,10 +92,10 @@
             }
         }
         a.mail {
-            background: #005a87;
-            border:1px solid #005a87;
+            background: #d4483a;
+            border:1px solid #d4483a;
             &:hover {
-                border:1px solid #006b98;
+                border:1px solid #d4483a;
             }
         }
         a.jianshu {
@@ -117,6 +117,69 @@
             border:1px solid #34baad;
             &:hover {
                 border:1px solid #34baad;
+            }
+        }
+        a.steam {
+            background: #193754;
+            border:1px solid #193754;
+            &:hover {
+                border:1px solid #193754;
+            }
+        }
+        a.cc {
+            background: #8dac00;
+            border:1px solid #8dac00;
+            &:hover {
+                border:1px solid #8dac00;
+            }
+        }
+        a.wikipedia {
+            background: #000000;
+            border:1px solid #000000;
+            &:hover {
+                border:1px solid #000000;
+            }
+        }
+        a.gitlab {
+            background: #fc6d26;
+            border:1px solid #fc6d26;
+            &:hover {
+                border:1px solid #fc6d26;
+            }
+        }
+        a.telegram {
+            background: #34abe0;
+            border:1px solid #34abe0;
+            &:hover {
+                border:1px solid #34abe0;
+            }
+        }
+        a.youtube {
+            background: #e62117;
+            border:1px solid #e62117;
+            &:hover {
+                border:1px solid #e62117;
+            }
+        }
+        a.stackoverflow {
+            background: #f48024;
+            border:1px solid #f48024;
+            &:hover {
+                border:1px solid #f48024;
+            }
+        }
+        a.whatsapp {
+            background: #43d854;
+            border:1px solid #43d854;
+            &:hover {
+                border:1px solid #43d854;
+            }
+        }
+        a.instagram {
+            background: #b03494;
+            border:1px solid #b03494;
+            &:hover {
+                border:1px solid #b03494;
             }
         }
     }
