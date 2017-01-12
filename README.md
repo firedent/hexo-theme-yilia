@@ -1,6 +1,23 @@
 hexo-theme-yilia
 ================
-到目前为止所有的图标：
+## 2017.01.12
+增加文章末尾的版权信息。
+### 使用说明
+请在需要进行版权声明的文章的md文件头部，设置属性declare: true
+在theme文件夹中的config文件中加入
+```
+\#版权基础设定：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明
+declare_type: 1
+\#版权协议地址
+licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+\#版权协议名称
+licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'
+\#版权信息图片链接
+licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
+```
+***
+## 2017.01.10
+### 到目前为止所有的图标：
 
 * weibo:
 * rss: 
@@ -28,6 +45,9 @@ hexo-theme-yilia
 
 更改了几个图标的颜色。
 ***
+
+================
+
 Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
 崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](http://litten.me/) 查看效果。           
  
