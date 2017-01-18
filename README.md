@@ -18,7 +18,7 @@ licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
 ***
 ## 2017.01.10
 ### 到目前为止所有的图标：
-
+具体修改过程可以参考本人的[博客](https://blog.zscself.com/2017/01/09/70677220/)
 * weibo:
 * rss: 
 * zhihu:
