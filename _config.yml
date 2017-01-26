@@ -4,6 +4,7 @@ menu:
   主页: /
   日常: /tags/日常/
   BiLiBiLi弹幕解密器: https://bilibili.zscself.com/
+  网站地图: /sitemap.xml
 
 
 # SubNav
@@ -29,7 +30,7 @@ subnav:
   #whatsapp:
   #instagram:
   telegram: "https://telegram.me/DuDuLuDuDaDaDa"
-  mail: "mailto:zscself[atme]gmail[dot]com"
+  mail: "/mail.png"
   #gitlab:
 
 rss: /atom.xml
@@ -57,7 +58,7 @@ reward_type: 1
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: https://blog.zscself.com/images/donateMeByAlipay.jpg
+alipay: /images/donateMeByAlipay.jpg
 # 微信二维码图片地址
 # weixin: 
 
