@@ -1,3 +1,4 @@
+
 <script>
 <% var left = '<%=' %>
 <% var right = '%' %>
@@ -13,7 +14,12 @@
 	    document.getElementsByTagName('body')[0].appendChild($script)
 	    $script.setAttribute('src', path)
 	}
-	<% for (var asset in compilation.assets) { %><% if (asset.indexOf('slider') >= 0) { %><% var slider = asset %><% } %><% } %>loadScript("<%= left %>config.root<%= right %><%= right2 %><%= slider %>")
+	<% for (var asset in compilation.assets) { %><% if (asset.indexOf('slider') >= 0) { %><% var slider = asset %><% } %><% if (asset.indexOf('serviceworker') >= 0) { %><% var serviceworker = asset %><% } %><% } %>
+	loadScript("<%= left %>config.root<%= right %><%= right2 %><%= slider %>")
+	if ('serviceWorker' in navigator) {
+		var $script = document.createElement('script')
+		document.getElementsByTagName('body')[0].appendChild($script)
+		$script.innerHTML = 'navigator.serviceWorker.register("<%= left %>config.root<%= right %><%= right2 %><%= serviceworker %>");'
+	}
 })();
 </script>
-

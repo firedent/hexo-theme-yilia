@@ -46,7 +46,7 @@
 
 	'use strict';
 
-	var _anm = __webpack_require__(99);
+	var _anm = __webpack_require__(115);
 
 	var _anm2 = _interopRequireDefault(_anm);
 
@@ -54,15 +54,15 @@
 
 	var _browser2 = _interopRequireDefault(_browser);
 
-	var _Q = __webpack_require__(100);
+	var _Q = __webpack_require__(116);
 
 	var _Q2 = _interopRequireDefault(_Q);
 
-	var _es6Promise = __webpack_require__(106);
+	var _es6Promise = __webpack_require__(122);
 
 	var promise = _interopRequireWildcard(_es6Promise);
 
-	var _fetchIe = __webpack_require__(109);
+	var _fetchIe = __webpack_require__(125);
 
 	var fetch = _interopRequireWildcard(_fetchIe);
 
@@ -1611,7 +1611,23 @@
 
 /***/ },
 /* 98 */,
-/* 99 */
+/* 99 */,
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */,
+/* 111 */,
+/* 112 */,
+/* 113 */,
+/* 114 */,
+/* 115 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1718,12 +1734,12 @@
 	};
 
 /***/ },
-/* 100 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {'use strict';
 
-	var _keys = __webpack_require__(102);
+	var _keys = __webpack_require__(118);
 
 	var _keys2 = _interopRequireDefault(_keys);
 
@@ -3612,10 +3628,10 @@
 	    );
 	});
 	;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(101)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(117)(module)))
 
 /***/ },
-/* 101 */
+/* 117 */
 /***/ function(module, exports) {
 
 	module.exports = function(module) {
@@ -3631,34 +3647,34 @@
 
 
 /***/ },
-/* 102 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(103), __esModule: true };
+	module.exports = { "default": __webpack_require__(119), __esModule: true };
 
 /***/ },
-/* 103 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(104);
+	__webpack_require__(120);
 	module.exports = __webpack_require__(39).Object.keys;
 
 /***/ },
-/* 104 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 Object.keys(O)
 	var toObject = __webpack_require__(74)
 	  , $keys    = __webpack_require__(58);
 
-	__webpack_require__(105)('keys', function(){
+	__webpack_require__(121)('keys', function(){
 	  return function keys(it){
 	    return $keys(toObject(it));
 	  };
 	});
 
 /***/ },
-/* 105 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
@@ -3673,7 +3689,7 @@
 	};
 
 /***/ },
-/* 106 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var require;/* WEBPACK VAR INJECTION */(function(process, global) {/*!
@@ -3812,7 +3828,7 @@
 	function attemptVertx() {
 	  try {
 	    var r = require;
-	    var vertx = __webpack_require__(108);
+	    var vertx = __webpack_require__(124);
 	    vertxNext = vertx.runOnLoop || vertx.runOnContext;
 	    return useVertxTimer();
 	  } catch (e) {
@@ -4833,10 +4849,10 @@
 
 	})));
 	//# sourceMappingURL=es6-promise.map
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(107), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(123), (function() { return this; }())))
 
 /***/ },
-/* 107 */
+/* 123 */
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -5022,13 +5038,13 @@
 
 
 /***/ },
-/* 108 */
+/* 124 */
 /***/ function(module, exports) {
 
 	/* (ignored) */
 
 /***/ },
-/* 109 */
+/* 125 */
 /***/ function(module, exports) {
 
 	(function() {

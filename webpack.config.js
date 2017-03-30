@@ -17,7 +17,8 @@ module.exports = {
   entry: {
     main: "./source-src/js/main.js",
     slider: "./source-src/js/slider.js",
-    mobile: "./source-src/js/mobile.js"
+    mobile: "./source-src/js/mobile.js",
+    serviceworker: "./source-src/js/sw.js"
   },
   output: {
     path: "./source",
