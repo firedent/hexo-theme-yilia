@@ -691,7 +691,6 @@ html, body, #container {
     .left-col #header .header-menu {
       font-weight: 300;
       line-height: 31px;
-      cursor: pointer;
       text-transform: uppercase;
       float: none;
       min-height: 150px;
@@ -1296,7 +1295,8 @@ pre .css ~ * .id {
     width: 200px;
     position: absolute;
     padding-top: 15px;
-    font-size: 1.8em; }
+    font-size: 1.8em;
+    z-index: 1; }
   .archives-wrap .archive-year-wrap a {
     color: #666;
     font-weight: bold;
