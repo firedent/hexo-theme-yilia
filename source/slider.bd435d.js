@@ -103,6 +103,7 @@
 				isShow: 0,
 				innerArchive: false,
 				friends: false,
+				archives: false,
 				aboutme: false,
 				items: [],
 				jsonFail: false,
@@ -133,6 +134,7 @@
 					// aboutme: '关于我'
 					app.$set('innerArchive', false);
 					app.$set('friends', false);
+					app.$set('archives', false);
 					app.$set('aboutme', false);
 					app.$set(type, true);
 					app.$set('isShow', true);
@@ -250,6 +252,7 @@
 				e.stopPropagation();
 				app.$set('innerArchive', true);
 				app.$set('friends', false);
+				app.$set('archives', false);
 				app.$set('aboutme', false);
 				app.$set('isShow', true);
 				app.$set('isCtnShow', true);

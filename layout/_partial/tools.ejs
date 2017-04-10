@@ -1,6 +1,7 @@
 <%
   var hasInnerArchive = theme.smart_menu.innerArchive
   var hasFriends = theme.smart_menu.friends
+  var hasArchives = theme.smart_menu.archives
   var hasAboutme = theme.smart_menu.aboutme
 %>
 <div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
@@ -36,7 +37,7 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
-            <% site.tags.forEach(function(tag, i){ %> 
+            <% site.tags.forEach(function(tag, i){ %>
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color<%= tag.name.length % 5 + 1 %>"><%-tag.name%></a>
               </li>
@@ -98,6 +99,20 @@
     	</section>
     <%}%>
 
+    <%if(hasArchives){%>
+    	<section class="tools-section tools-section-friends" q-show="archives">
+  		<%if(theme.archives && theme.archives.length != 0){%>
+        <ul class="search-ul">
+          <% for (var i in theme.archives){ %>
+            <li class="search-li">
+              <a href="<%- url_for(theme.archives[i]) %>" target="_self" class="search-title"><%= i %></a>
+            </li>
+          <% } %>
+        </ul>
+  		<%}%>
+    	</section>
+    <%}%>
+
     <%if(hasAboutme){%>
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	<%if(theme.aboutme){%>
@@ -106,5 +121,5 @@
     	</section>
     <%}%>
   </div>
-  
+
 </div>
