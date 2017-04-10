@@ -98,7 +98,13 @@ slider:
 smart_menu:
   innerArchive: '所有文章'
   friends: '友情链接'
+  archives: '归档'
   aboutme: '关于'
+archives:
+  2017年: /archives/2017/
+  2016年: /archives/2016/
+  2015年: /archives/2015/
+  2014年: /archives/2014/
 friends:
   谁佛: http://sheifo.com/
 aboutme: 这里是F!redent的个人网站<br>创建于2014-09-12<br>湿货多和啰哩啰嗦是本站的两大特点<br>喜欢不会给你带来什么<br>不喜欢也不会让我失去什么<br>要做就做真实的自己<br><br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
