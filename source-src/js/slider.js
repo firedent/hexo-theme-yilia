@@ -35,6 +35,7 @@ function init() {
 			isShow: 0,
 			innerArchive: false,
 			friends: false,
+			archives: false,
 			aboutme: false,
 			items: [],
 			jsonFail: false,
@@ -63,9 +64,11 @@ function init() {
 				// innerArchive: '所有文章'
   				// friends: '友情链接'
   				// aboutme: '关于我'
+					//archives: '归档'
   				app.$set('innerArchive', false)
   				app.$set('friends', false)
   				app.$set('aboutme', false)
+					app.$set('archives', false)
   				app.$set(type, true)
   				app.$set('isShow', true)
   				app.$set('isCtnShow', true)
@@ -182,6 +185,7 @@ function init() {
 			e.stopPropagation()
 			app.$set('innerArchive', true)
 			app.$set('friends', false)
+			app.$set('archives', false)
 			app.$set('aboutme', false)
 			app.$set('isShow', true)
 			app.$set('isCtnShow', true)
