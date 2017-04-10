@@ -26,7 +26,7 @@ subnav:
   wikipedia: "https://zh.moegirl.org/User:Zscself"
   #gitlab:
   steam: "https://steamcommunity.com/profiles/76561198107245108"
-  #youtube:
+  #youtube: 
   #stackoverflow:
   #whatsapp:
   #instagram:
@@ -38,7 +38,7 @@ subnav:
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
 # 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
-root:
+root: 
 # Content
 
 # 文章太长，截断按钮文字
@@ -56,12 +56,11 @@ open_in_new: true
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 1
 # 打赏wording
-reward_wording: '大家好，我以前是一名任豚，现在已趋入索尼教，准备去日本参加入教仪式。往返机票食宿总共3000元，接受支付宝转账，希望好心人圆我入教梦想。
-我不知道什么是Nintendo Switch，更不知道什么塞尔达。'
+reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: /images/donateMeByAlipay.gif
 # 微信二维码图片地址
-# weixin:
+# weixin: 
 
 # Miscellaneous
 baidu_analytics: '10d5995ba60a44948e3bf579c6065e10'
@@ -101,12 +100,13 @@ smart_menu:
   aboutme: '关于'
 friends:
   谁佛: http://sheifo.com/
-aboutme: 这里是F!redent的个人网站<br>创建于2014-09-12<br>湿货多和啰哩啰嗦是本站的两大特点<br>喜欢不会给你带来什么<br>不喜欢也不会让我失去什么<br>要做就做真实的自己<br><br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 这里是F!redent的个人网站<br>湿货多和啰哩啰嗦<br>是本站的两大特点<br>喜欢不会给你带来什么<br>不喜欢也不会让我失去什么<br>要做就做真实的自己<br><br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
 
 # 版权声明
 # 请在需要进行版权声明的文章的md文件头部，设置属性declare: true
 # 版权基础设定：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明
 declare_type: 1
-licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'
 licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
+
