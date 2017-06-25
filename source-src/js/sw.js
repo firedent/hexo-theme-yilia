@@ -5,6 +5,7 @@ const __DEVELOPMENT__ = false;
 const __DEBUG__ = false;
 const offlineResources = [
   '/',
+  '/offline/index.html',
   '/2017/03/30/3e16aa00/index.html',
   '/favicon.ico'
 ];
@@ -107,7 +108,7 @@ function offlineResponse(request) {
   if (request.url.match(/\.(jpg|png|gif|svg|jpeg)(\?.*)?$/)) {
     return caches.match('/favicon.ico');
   } else {
-    return caches.match('/offline.html');
+    return caches.match('/offline/index.html');
   }
 }
 
