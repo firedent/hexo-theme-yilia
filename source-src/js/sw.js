@@ -11,7 +11,8 @@ const offlineResources = [
 ];
 
 const ignoreFetch = [
-
+  /chrome-extension:\/\//,
+  /^data:/
 ];
 
 
