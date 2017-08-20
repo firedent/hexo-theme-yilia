@@ -1,0 +1,38 @@
+@mixin admon-color($color) {
+  color: darken($color, 15%);
+  background-color: lighten($color, 25%);
+  border-color: $color;
+}
+
+.admonition {
+  padding: 9px 12px 9px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: left;
+  p {
+    line-height: 1.25;
+    margin: 0px;
+  }
+  &-title {
+    font-weight: bold;
+    text-align: left;
+  }
+  &.note,
+  &.info,
+  &.tips {
+    $base-blue: #3498db;
+    @include admon-color($base-blue);
+  }
+  &.warning,
+  &.warn,
+  &.important {
+    $base-carrot: #e67e22;
+    @include admon-color($base-carrot);
+  }
+  &.danger,
+  &.critical {
+    $base-alizarin: #e74c3c;
+    @include admon-color($base-alizarin);
+  }
+}
