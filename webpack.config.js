@@ -17,7 +17,7 @@ module.exports = {
   entry: {
     main: "./source-src/js/main.js",
     slider: "./source-src/js/slider.js",
-    serviceworker: "./source-src/js/sw.js",
+    // serviceworker: "./source-src/js/sw.js",
     mobile: ["babel-polyfill", "./source-src/js/mobile.js"]
   },
   output: {
