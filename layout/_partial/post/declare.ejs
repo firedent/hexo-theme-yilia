@@ -1,7 +1,11 @@
+<%
+  var sUrl = url.replace(/index\.html$/, '');
+  sUrl = /^(http:|https:)\/\//.test(sUrl) ? sUrl : 'https:' + sUrl;
+%>
 <% if ((theme.declare_type === 2 || (theme.declare_type === 1 && post.declare)) && !index){ %>
   <div class="declare">
     <strong>本文链接：</strong>
-    <%= url%>
+    <%= sUrl%>
     <br>
     <strong>版权声明：</strong>
     本作品采用
