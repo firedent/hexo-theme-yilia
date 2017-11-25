@@ -32,6 +32,7 @@ function init() {
 	if ($aboutme && $aboutme.length !== 0) {
 		$aboutme.innerHTML = $aboutme.innerText
 	}
+	
 }
 
 module.exports = {
