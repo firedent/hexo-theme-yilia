@@ -4,6 +4,13 @@
 %>
 <% if ((theme.declare_type === 2 || (theme.declare_type === 1 && post.declare)) && !index){ %>
   <div class="declare">
+    <strong>本文作者：</strong>
+    <% if(config.author != undefined){ %>
+      <%= config.author%>
+    <% }else{%>
+      <font color="red">请在博客根目录“_config.yml”中填入正确的“author”</font>
+    <%}%>
+    <br>
     <strong>本文链接：</strong>
     <%= sUrl%>
     <br>
