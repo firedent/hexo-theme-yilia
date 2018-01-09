@@ -3,7 +3,7 @@
 menu:
   主页: /
   日常: /tags/日常/
-  2017年计划: /2017/01/26/f03473fc/
+  2018年计划: /2018/01/08/13f2871/
   BiLiBiLi弹幕解密器: https://bilibili.zscself.com/
   网站地图: /sitemap.xml
 
@@ -55,7 +55,7 @@ open_in_new: true
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 1
 # 打赏wording
-reward_wording: '大家好，我以前是一名任豚，现在已趋入索尼教，准备去日本参加入教仪式。往返机票食宿总共3000元，接受支付宝转账，希望好心人圆我入教梦想。
+reward_wording: '大家好，我以前是一名任豚，现在已趋入索尼神教，准备去日本参加入教仪式。往返机票食宿总共2500元，接受支付宝转账，希望好心人圆我一个梦想。
 我不知道什么是Nintendo Switch，更不知道什么塞尔达。'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: /images/donateMeByAlipay.gif
@@ -131,13 +131,14 @@ smart_menu:
   archives: '归档'
   aboutme: '关于'
 archives:
+  2018年 ￣ω￣=: /archives/2018
   2017年 ╮(╯_╰)╭: /archives/2017
   2016年 (ಥ_ಥ): /archives/2016
   2015年 φ(≧ω≦*)♪: /archives/2015
   2014年 ヾ(=･ω･=)o: /archives/2014
 friends:
   谁佛: http://sheifo.com/
-aboutme: 这里是F!redent的个人网站<br>创建于2014-09-12<br>湿货多和啰哩啰嗦是本站的两大特点<br>喜欢不会给你带来什么<br>不喜欢也不会让我失去什么<br>为了可以在这里表达最真实的想法，<br>我会尽量隐去个人信息。<br><br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 这里是F!redent的个人网站<br>创建于2014-09-12<br>湿货多和啰哩啰嗦是本站的两大特点。<br><br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
 
 # 版权声明
 # 请在需要进行版权声明的文章的md文件头部，设置属性declare: true
