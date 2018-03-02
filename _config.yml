@@ -2,11 +2,10 @@
 
 menu:
   主页: /
-  日常: /tags/日常/
   2018年计划: /2018/01/08/13f2871/
   BiLiBiLi弹幕解密器: https://bilibili.zscself.com/
+  公钥(170C658E): /download/170C658E–Public.asc
   网站地图: /sitemap.xml
-
 
 # SubNav
 subnav:
