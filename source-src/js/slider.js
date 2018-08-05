@@ -66,7 +66,7 @@ function init() {
   				// aboutme: '关于我'
   				app.$set('innerArchive', false)
   				app.$set('friends', false)
-					app.$set('archives', false)
+				app.$set('archives', false)
   				app.$set('aboutme', false)
   				app.$set(type, true)
   				app.$set('isShow', true)
