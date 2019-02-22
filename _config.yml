@@ -2,7 +2,7 @@
 
 menu:
   主页: /
-  2018年计划: /2018/01/08/13f2871/
+  2018年计划: /posts/13f2871/ 
   BiLiBiLi弹幕解密器: https://bilibili.zscself.com/
   公钥(90E2C209): /download/90E2C209–Public.asc
   网站地图: /sitemap.xml
@@ -75,10 +75,10 @@ top: true
 # Miscellaneous
 baidu_analytics: '10d5995ba60a44948e3bf579c6065e10'
 google_analytics: 'UA-92400662-1'
-favicon: /frog.png
+favicon: /images/frog.png
 
 #你的头像url
-avatar: https://ojewiybay.qnssl.com/yilianmengbi.jpg
+avatar: /images/yilianmengbi.jpg
 
 #是否开启分享
 share_jia: false
@@ -130,6 +130,7 @@ smart_menu:
   archives: '归档'
   aboutme: '关于'
 archives:
+  2019年 (๑•̀ㅂ•́)و✧: /archives/2019
   2018年 ￣ω￣=: /archives/2018
   2017年 ╮(╯_╰)╭: /archives/2017
   2016年 (ಥ_ಥ): /archives/2016
