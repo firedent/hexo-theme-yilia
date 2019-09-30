@@ -2,9 +2,9 @@
 
 menu:
   主页: /
-  2018年计划: /posts/13f2871/ 
+  2018年计划: /posts/13f2871/
   BiLiBiLi弹幕解密器: https://bilibili.zscself.com/
-  公钥(90E2C209): /download/90E2C209–Public.asc
+  公钥(4492E554): /download/4492E554–Public.asc
   网站地图: /sitemap.xml
 
 # SubNav
@@ -75,6 +75,7 @@ top: true
 # Miscellaneous
 baidu_analytics: '10d5995ba60a44948e3bf579c6065e10'
 google_analytics: 'UA-92400662-1'
+google_adsense: 'ca-pub-5449073639010251'
 favicon: /images/frog.png
 
 #你的头像url
@@ -99,6 +100,12 @@ changyan_conf: false
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: 'firet'
+disqusjs:
+    siteName: 'F!redent'
+    api: ''
+    apikey: 'wsQ74y9hNqCCErZJ0l6P9pMnAhjylWkkjcoQqL0NRscjXWchIxdUBTFQxzVhcKyS'
+    admin: 'Fir3d3nt'
+    adminLabel: '站长大人'
 
 #5、Gitment
 gitment_owner: false      #你的 GitHub ID
@@ -138,7 +145,7 @@ archives:
   2014年 ヾ(=･ω･=)o: /archives/2014
 friends:
   谁佛: http://sheifo.com/
-aboutme: 这里是F!redent的个人网站<br>创建于2014-09-12<br>湿货多和啰哩啰嗦是本站的两大特点。<br><br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 这里是F!redent的个人网站<br>始于2014-09-12<br>湿货多和啰哩啰嗦是本站的两大特点。<br><br>很惭愧<br>只做了一点微小的工作<br><br>谢谢大家
 
 # 版权声明
 # 请在需要进行版权声明的文章的md文件头部，设置属性declare: true

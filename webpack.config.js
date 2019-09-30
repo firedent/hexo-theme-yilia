@@ -17,6 +17,7 @@ module.exports = {
   entry: {
     main: "./source-src/js/main.js",
     slider: "./source-src/js/slider.js",
+    // 由于输出的文件带hash值，所以这种方法暂时弃用
     // serviceworker: "./source-src/js/sw.js",
     mobile: ["babel-polyfill", "./source-src/js/mobile.js"]
   },

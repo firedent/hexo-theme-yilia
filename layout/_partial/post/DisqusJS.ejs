@@ -1,0 +1,15 @@
+<section id="comments">
+  <div id="disqus_thread"></div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqusjs.css">
+  <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.1/dist/disqus.js"></script>
+  <script>
+      var dsqjs = new DisqusJS({
+          <% for (var i in theme.disqusjs){ %><%=i%>: '<%=theme.disqusjs[i]%>',<% } %>
+          shortname: '<%= theme.disqus || config.disqus_shortname %>',
+          identifier: '<%=url%>',
+          url: '<%=url%>',
+          title: '<%=title%>'
+      });
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
