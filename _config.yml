@@ -2,7 +2,6 @@
 
 menu:
   主页: /
-  2018年计划: /posts/13f2871/
   BiLiBiLi弹幕解密器: https://bilibili.zscself.com/
   公钥(4492E554): /download/4492E554–Public.asc
   网站地图: /sitemap.xml
@@ -79,7 +78,7 @@ google_adsense: 'ca-pub-5449073639010251'
 favicon: /images/frog.png
 
 #你的头像url
-avatar: /images/yilianmengbi.jpg
+avatar: /images/avatar.webp
 
 #是否开启分享
 share_jia: false
@@ -145,7 +144,7 @@ archives:
   2014年 ヾ(=･ω･=)o: /archives/2014
 friends:
   谁佛: http://sheifo.com/
-aboutme: 这里是F!redent的个人网站<br>始于2014-09-12<br>湿货多和啰哩啰嗦是本站的两大特点。<br><br>很惭愧<br>只做了一点微小的工作<br><br>谢谢大家
+aboutme: 这里是F!redent的个人网站<br>始于2014-09-12<br>湿货多和啰里啰嗦是本站的两大特点。<br><br>很惭愧<br>只做了一点微小的工作<br><br>谢谢大家
 
 # 版权声明
 # 请在需要进行版权声明的文章的md文件头部，设置属性declare: true
