@@ -1,7 +1,7 @@
 {
-  "name": "yilia",
-  "version": "4.0.0",
-  "description": "a theme for hexo",
+  "name": "yilia-sc",
+  "version": "4.1.0",
+  "description": "a theme for hexo modified by firedent",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/litten/hexo-theme-yilia.git"
+    "url": "git+https://github.com/firedent/hexo-theme-yilia-modify.git"
   },
   "keywords": [
     "hexo",
     "theme",
     "blog"
   ],
-  "author": "litten",
+  "author": "firedent",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/litten/hexo-theme-yilia/issues"
+    "url": "https://github.com/firedent/hexo-theme-yilia-modifyissues"
   },
-  "homepage": "https://github.com/litten/hexo-theme-yilia#readme",
+  "homepage": "https://github.com/firedent/hexo-theme-yilia-modify#readme",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
     "clean-webpack-plugin": "^0.1.15",
@@ -30,14 +30,15 @@
     "dom101": "^1.3.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.24.1",
-    "node-sass": "^3.9.3",
+    "node-sass": "^4.12.0",
     "postcss-loader": "^1.0.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^1.13.2"
+    "webpack": "legacy"
   },
   "dependencies": {
+    "aplayer": "^1.10.1",
     "babel-core": "6.24.0",
     "babel-loader": "6.4.0",
     "babel-plugin-transform-runtime": "6.23.0",
@@ -46,7 +47,7 @@
     "babel-preset-react": "6.23.0",
     "babel-preset-stage-2": "6.22.0",
     "badjs-report": "^1.2.2",
-    "disqusjs": "^1.2.5",
+    "disqusjs": "^1.3.0",
     "es6-promise": "^4.0.5",
     "fetch": "^1.1.0",
     "fetch-ie8": "^1.4.3",
