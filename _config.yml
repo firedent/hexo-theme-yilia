@@ -2,7 +2,6 @@
 
 menu:
   主页: /
-  BiLiBiLi弹幕解密器: https://bilibili.zscself.com/
   公钥(4492E554): /download/4492E554–Public.asc
   网站地图: /sitemap.xml
 
@@ -29,7 +28,7 @@ subnav:
   #whatsapp:
   #instagram:
   telegram: "https://telegram.me/DuDuLuDuDaDaDa"
-  rss: /feed.xml
+  rss: /atom.xml
   mail: "/mail.png"
   #gitlab:
 
@@ -74,7 +73,7 @@ top: true
 # Miscellaneous
 baidu_analytics: '10d5995ba60a44948e3bf579c6065e10'
 google_analytics: 'UA-92400662-1'
-google_adsense: 'ca-pub-5449073639010251'
+google_adsense: false
 favicon: /images/frog.png
 
 #你的头像url
@@ -136,6 +135,7 @@ smart_menu:
   archives: '归档'
   aboutme: '关于'
 archives:
+  2020年 凸(艹皿艹 ): /archives/2020
   2019年 (๑•̀ㅂ•́)و✧: /archives/2019
   2018年 ￣ω￣=: /archives/2018
   2017年 ╮(╯_╰)╭: /archives/2017
@@ -149,6 +149,7 @@ aboutme: 这里是F!redent的个人网站<br>始于2014-09-12<br>湿货多和啰
 # 版权声明
 # 请在需要进行版权声明的文章的md文件头部，设置属性declare: true
 # 版权基础设定：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明
-declare_type: 1
-licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
-licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'
+copy_right:
+    declare_type: 1
+    licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
+    licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'
