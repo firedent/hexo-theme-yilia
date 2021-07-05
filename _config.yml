@@ -8,7 +8,6 @@ menu:
 # SubNav
 subnav:
   #weibo: "#"
-  #rss: "#"
   #zhihu: "#"
   #qq: "#"
   #weixin: "#"
@@ -27,7 +26,7 @@ subnav:
   #stackoverflow:
   #whatsapp:
   #instagram:
-  telegram: "https://telegram.me/DuDuLuDuDaDaDa"
+  telegram: "https://telegram.me/dididididadada"
   rss: /atom.xml
   mail: "/mail.png"
   #gitlab:
